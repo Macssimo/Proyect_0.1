@@ -495,20 +495,32 @@ h1 .webinar {
   text-align: center;
 }
 
-.footer {
-  height: 166px;
+footer {
+  min-height: 166px;
   background-color: #1a1a1a;
+  padding: 61px 0 69px 0;
 }
-.footer__links {
-  display: block;
+
+.info {
+  margin: 0 auto;
+  width: 377px;
   text-align: center;
-  padding: 70px;
-}
-.footer__links a {
-  margin: 10px;
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 300;
   color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+footer a {
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.underlined {
   text-decoration: underline;
 }
